@@ -11,7 +11,12 @@
 </head>
 <body style="margin: 0; overflow: hidden;">
     
-    <a-scene>
+    <a-scene
+        enbedded
+        vr-mode-ui= "enabled: false;"
+        arjs
+        renderer= "logarithmicDepthBuffer: true"
+    >
 
         <a-assets>
             <img src="assets/selfie.png" id="selfie" />
